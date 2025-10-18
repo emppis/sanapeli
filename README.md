@@ -20,6 +20,18 @@ SANAPELI/
 4. Sinulla on **6 yritystä** arvata sana oikein.
 5. Voit aloittaa uuden pelin painamalla **"Pelaa uusi"** -nappia.
 
+## Responsiivisuus
+
+Sanapeli on suunnilteltu toimimaan myös mobiililaitteen näytöllä. CSS:n media queryt mukauttavat fonttikoot, solujen mitat ja syötekentän leveyden pienemmille näytöille. 
+
+## Jatkokehitysmahdollisuuksia
+
+- Oikean sanan voisi näyttää visuaalisesti taulukossa tappion jälkeen.
+- Virheilmoitukset voisi tulla alertin sijaan kentän alle.
+- Mobiilikäyttöön voisi tehdä visuaalisen näppäimistön, jossa voisi myös näkyä mitä kirjaimia on jo arvattu.
+- Arvattavan sanan kirjaimet voisi näkyä suoraan taulukon ruuduissa, jo ennen enterin painamista.
+- Sovellukseen voisi tehdä kirjautumismahdollisuuden ja käyttäjänhallinnan. Sovellusta voisi laajentaa niin, että se muistaisi käyttäjän statistiikan, kuinka monta peliä on ratkaissut kuinka monella yrityksellä ja kuinka monta peliä on kokonaan hävitty.
+
 ## Sanalähde
 
 Sanalista on otettu [qalle.neocities.org/kotuslistat](https://qalle.neocities.org/kotuslistat#johdanto) -sivustolta `stripped.txt`-tiedostosta. Sanalistan alkuperäinen lähde on Kotimaisten kielten keskuksen (Kotus) nykysuomen sanalista. Lista on muokattu Pythonilla niin, että siihen on jätetty vain:
